@@ -15,6 +15,8 @@
 		5A11E4A42ABF39B1003D682E /* RVSearchScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A11E4A32ABF39B1003D682E /* RVSearchScreenViewModel.swift */; };
 		5A11E4A62ABF39CC003D682E /* RVListings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A11E4A52ABF39CC003D682E /* RVListings.swift */; };
 		5A11E4A82ABF3BD6003D682E /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A11E4A72ABF3BD6003D682E /* NetworkingManager.swift */; };
+		5A11E4AA2ABF3C90003D682E /* ShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A11E4A92ABF3C90003D682E /* ShimmerView.swift */; };
+		5A11E4AC2ABF3D32003D682E /* RVMapLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A11E4AB2ABF3D32003D682E /* RVMapLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		5A11E4A32ABF39B1003D682E /* RVSearchScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RVSearchScreenViewModel.swift; sourceTree = "<group>"; };
 		5A11E4A52ABF39CC003D682E /* RVListings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RVListings.swift; sourceTree = "<group>"; };
 		5A11E4A72ABF3BD6003D682E /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		5A11E4A92ABF3C90003D682E /* ShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerView.swift; sourceTree = "<group>"; };
+		5A11E4AB2ABF3D32003D682E /* RVMapLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RVMapLocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 		5A11E49F2ABF3876003D682E /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				5A11E4AB2ABF3D32003D682E /* RVMapLocation.swift */,
 				5A11E48F2ABF328B003D682E /* RVSearchScreen.swift */,
 			);
 			path = Screens;
@@ -123,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				5A11E4A12ABF3890003D682E /* SearchBar.swift */,
+				5A11E4A92ABF3C90003D682E /* ShimmerView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -200,7 +206,9 @@
 				5A11E4902ABF328B003D682E /* RVSearchScreen.swift in Sources */,
 				5A11E48E2ABF328B003D682E /* RVFinderApp.swift in Sources */,
 				5A11E4A62ABF39CC003D682E /* RVListings.swift in Sources */,
+				5A11E4AA2ABF3C90003D682E /* ShimmerView.swift in Sources */,
 				5A11E4A82ABF3BD6003D682E /* NetworkingManager.swift in Sources */,
+				5A11E4AC2ABF3D32003D682E /* RVMapLocation.swift in Sources */,
 				5A11E4A42ABF39B1003D682E /* RVSearchScreenViewModel.swift in Sources */,
 				5A11E4A22ABF3890003D682E /* SearchBar.swift in Sources */,
 			);

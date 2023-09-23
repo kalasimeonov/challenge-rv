@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-extension SearchBar {
+private extension SearchBar {
     enum Constants {
         static let height = 40.0
         static let fontSize = 18.0
