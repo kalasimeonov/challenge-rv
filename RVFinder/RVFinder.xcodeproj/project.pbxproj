@@ -17,6 +17,7 @@
 		5A11E4A82ABF3BD6003D682E /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A11E4A72ABF3BD6003D682E /* NetworkingManager.swift */; };
 		5A11E4AA2ABF3C90003D682E /* ShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A11E4A92ABF3C90003D682E /* ShimmerView.swift */; };
 		5A11E4AC2ABF3D32003D682E /* RVMapLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A11E4AB2ABF3D32003D682E /* RVMapLocation.swift */; };
+		5AEF1FC72ABF41FA0055AF73 /* RVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF1FC62ABF41FA0055AF73 /* RVCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		5A11E4A72ABF3BD6003D682E /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		5A11E4A92ABF3C90003D682E /* ShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerView.swift; sourceTree = "<group>"; };
 		5A11E4AB2ABF3D32003D682E /* RVMapLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RVMapLocation.swift; sourceTree = "<group>"; };
+		5AEF1FC62ABF41FA0055AF73 /* RVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RVCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 			children = (
 				5A11E4A12ABF3890003D682E /* SearchBar.swift */,
 				5A11E4A92ABF3C90003D682E /* ShimmerView.swift */,
+				5AEF1FC62ABF41FA0055AF73 /* RVCell.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AEF1FC72ABF41FA0055AF73 /* RVCell.swift in Sources */,
 				5A11E4902ABF328B003D682E /* RVSearchScreen.swift in Sources */,
 				5A11E48E2ABF328B003D682E /* RVFinderApp.swift in Sources */,
 				5A11E4A62ABF39CC003D682E /* RVListings.swift in Sources */,

@@ -29,7 +29,7 @@ struct RVMapLocation: View {
             annotationItems: [place]
         ) { place in
             MapAnnotation(coordinate: .init(latitude: place.latitude, longitude: place.longitude)) {
-                Circle().stroke(Color.blue)
+                Image(systemName: "mappin")
                     .frame(width: Constants.size, height: Constants.size)
             }
         }

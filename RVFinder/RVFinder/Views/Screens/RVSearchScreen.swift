@@ -40,25 +40,7 @@ struct RVSearchScreen: View {
                             NavigationLink {
                                 RVMapLocation(place: .init(name: "", latitude: rv.attributes.location.lat, longitude: rv.attributes.location.lng), region: .init(center: .init(latitude: rv.attributes.location.lat, longitude: rv.attributes.location.lng), latitudinalMeters: 0.3, longitudinalMeters: 0.3))
                             } label: {
-                                HStack {
-                                    AsyncImage(url: URL(string: rv.attributes.primaryImageURL),
-                                               content: { image in
-                                        image.resizable()
-                                            .aspectRatio(contentMode: .fit)
-                                            .frame(maxWidth: 100, maxHeight: 80)
-                                            .cornerRadius(8.0)
-                                    },
-                                               placeholder: {
-                                        ShimmerView()
-                                            .frame(maxWidth: 100)
-                                            .frame(height: 80, alignment: .center)
-                                    })
-                                    Text(rv.attributes.name)
-                                        .padding(8)
-                                        .font(.system(size: 18))
-                                        .foregroundColor(.gray)
-                                }
-                                .contentShape(Rectangle())
+                                RVCell(urlString: rv.attributes.primaryImageURL, rvName: rv.attributes.name)
                             }
                         }
                         .padding(.horizontal)
